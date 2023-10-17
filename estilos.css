@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  
+  ul {
+    list-style: none; }
+  
+  a {
+    text-decoration: none; }
+
+    .colored-toast.swal2-icon-error {
+        background-color: #f27474 !important;
+      }
+
+.titulo {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px rgba(141, 152, 187, 0.788);
+}
+.nav__logo {
+        margin-left: 15px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(0, 0, 0);
+        font-size: 2.500rem;
+        font-weight:900;
+        font-style: italic;
+        animation: fluido 5s ease-in-out infinite;
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgb(72, 89, 138) 50%, rgba(255,255,255,1) 65%);
+            background-size: 600%;
+            -webkit-background-clip: text;
+              background-clip: text;
+            -webkit-text-fill-color: transparent;
+    }
+    .hidden{
+        display: none;
+        
+      }
+      .fondoLoginRegister {
+          background-image: url(./Assets/fondoLoginRegister.jpg);
+          background-position-x: center;
+          background-repeat: no-repeat;
+          background-position-y: center;
+          background-size: cover;
+          flex-wrap: wrap;
+        }
+      .login-register {
+          display: flex;
+          justify-content: space-around;
+          margin: 15vh 10vw 0vh 10vw;
+          flex-wrap: wrap;
+      }
+
+      .register-tienda {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 5px 0 50px rgba(0,0,0,.6);
+        padding: 25px 10px 25px 10px;
+        margin-bottom: 50px;
+        width: 275px;
+      }
+      .register-tienda label {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.658);
+        margin: 10px 0px 10px 0px;
+    }
+    .regSpan {
+        font-family:'Open Sans', sans-serif;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color:rgb(52, 67, 110);
+    }
+    .register-tienda input {
+        border: none;
+        border-bottom: 2px solid gray;
+    }
+    .btnRegister {
+        margin-top: 25px;
+    }
+      .login-tienda {
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          background-color: rgb(255, 255, 255);
+          height: 300px;
+          width: 275px;
+          box-shadow: 5px 0 20px rgba(0, 0, 0, 0.945);
+          padding: 60px 10px 60px 10px;
+          margin-bottom: 20px;
+      }
+      .login-tienda label {
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 600;
+          color: rgba(0, 0, 0, 0.658);
+          margin: 10px 0px 10px 0px;
+      }
+      .login-tienda input {
+          border: none;
+          border-bottom: 2px solid gray;
+      }
+      .logSpan {
+        font-family:'Open Sans', sans-serif;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color:rgb(52, 67, 110);
+      }
+      .btnIngre {
+          margin-top: 25px;
+      }
+.carrito {
+    border: 0ch;
+    background-color: black;
+    margin-right: 20px;
+}
+.productosCartas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(204, 198, 198);
+}
+.productosCartas__Uno {
+    text-align: center;
+    margin: 20px 5px;
+    width: 200px;
+    overflow: hidden;
+    background-color: rgb(233, 227, 227);
+    height: 310px;
+    box-shadow: 5px 0 10px rgba(0,0,0,.6);
+}
+.productosCartas__Uno img {
+    margin-bottom: 5px;
+    width: 100%;
+    height: 200px;
+    border-bottom:solid 0.5px rgba(0, 0, 0, 0.062);
+}
+.productosCartas__Uno h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 2px 0px 2px 0px;
+}
+.productosCartas__Uno h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.carritoContenedor {
+    display: grid;
+    background-color: white;
+    padding: 20px 0 20px 0;
+    width: 100%;
+    grid-template-columns: auto auto;
+    justify-items: center;
+}
+.carritoContenedor h4 {
+    margin: 10px 0px 5px 15px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.322);
+}
+.footer {
+    height: 20vh;
+    background-color: rgb(0, 0, 0);
+    display:inline-block;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.918);
+}
+.footer span {
+    color: rgb(167, 167, 167);
+}
+.footerIcons {
+    margin:20px 0 25px 0;
+    color: black;
+}
+.footerIcons1 {
+    margin: 0 20px 0 20px;
+}
+.error {
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 15px;
+    color: #d43c3c;
+}
+.hidden{
+    display: none;
+  }
+@keyframes fluido {
+    0% { background-position: 0 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0 50% }
+}
