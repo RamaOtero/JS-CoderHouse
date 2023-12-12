@@ -45,6 +45,7 @@
           background-position-y: center;
           background-size: cover;
           flex-wrap: wrap;
+          height: 70vh;
         }
       .login-register {
           display: flex;
